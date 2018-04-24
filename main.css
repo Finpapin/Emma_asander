@@ -1,0 +1,41 @@
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+color: indigo;
+background-color: magenta;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+  list-style-type: disc;
+  margin-bottom: 0px;
+}
+
+.inputSection {
+  margin: 50px 0px 60px 0px;
+  width: 400px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 5px;
+}
+
+.läggTill {
+  margin-top: 10px;
+}
+
+button {
+  background-color: indigo;
+  color: magenta;
+}
